@@ -1,0 +1,45 @@
+.add-challenge-container {
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  text-align: center;
+}
+.add-challenge-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-challenge-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-challenge-container input,
+.add-challenge-container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+.add-challenge-container textarea {
+  height: 120px;
+  resize: none;
+}
+
+.add-challenge-container button {
+  padding: 10px 15px;
+  background: #4b7bec;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.add-challenge-container button:hover {
+  background: #3867d6;
+}
